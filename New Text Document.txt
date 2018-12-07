@@ -1,4 +1,5 @@
-Main page, possibly with an about section in a jumbotron, links to two different sub pages: quantum chemistry and web development. The main github repository should also be linked
+Main page, possibly with an about section in a jumbotron, links to two different sub pages: quantum chemistry and web development. The main github repository should also be linked.
+The main page and sub pages should be rendered in AJAX. Mention whole site is built from scratch, with no template.
 
 Quantum chemistry covers basic quantum chemical descriptions, HF, MP2, CCSD and MCSCF etc., as well as thesis and what that means.
 

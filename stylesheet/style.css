@@ -20,12 +20,12 @@ header p {
 	justify: right;
 }
 
-img{
+#chem {
 	width: 75%;
 }
 
 #webDev {
-	padding-left: 20px;
+	width: 75%;
 }
 
 .jumbotron h2, p{
