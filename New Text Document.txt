@@ -1,0 +1,6 @@
+Main page, possibly with an about section in a jumbotron, links to two different sub pages: quantum chemistry and web development. The main github repository should also be linked
+
+Quantum chemistry covers basic quantum chemical descriptions, HF, MP2, CCSD and MCSCF etc., as well as thesis and what that means.
+
+Web development describes types of code and tools that have been covered, HTML, CSS, JS, Java, angular, react, bootstrap etc., 
+and links to seperate pages for each codecademy project, with sub headings for each area. The code for each project should be linked to via github
