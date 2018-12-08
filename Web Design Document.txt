@@ -4,4 +4,4 @@ The main page and sub pages should be rendered in AJAX. Mention whole site is bu
 Quantum chemistry covers basic quantum chemical descriptions, HF, MP2, CCSD and MCSCF etc., as well as thesis and what that means.
 
 Web development describes types of code and tools that have been covered, HTML, CSS, JS, Java, angular, react, bootstrap etc., 
-and links to seperate pages for each codecademy project, with sub headings for each area. The code for each project should be linked to via github
+and links to seperate pages for each codecademy project, with sub headings for each area. The code for each project should be linked to via github 
