@@ -13,19 +13,30 @@ header p {
 	padding: 10px 10px;
 }
 
+#webButton, #chemButton {
+	padding-left: 30px;
+}
+
+
+
 .btn.btn-primary {
-	justify: right;
+	width: 50%
 }
 
 #chem {
-	width: 50%;
-	border: 2px solid red;
+	width: 300px;
+	height: 250px;
+	border: 2px solid black;
 	border-radius: 25px;
 }
 
-#webDev {
-	width: 50%;
+#webDev{
+	width: 300px;
+	height: 250px;
+	border: 2px solid white;
+	border-radius: 25px;
 }
+
 
 .jumbotron h2, p{
 	padding-left: 40px;
