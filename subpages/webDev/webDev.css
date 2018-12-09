@@ -1,0 +1,13 @@
+header .row{
+	display: flex;
+	align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+	padding: 10px 10px;
+}

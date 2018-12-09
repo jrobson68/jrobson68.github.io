@@ -1,7 +1,9 @@
 Main page, possibly with an about section in a jumbotron, links to two different sub pages: quantum chemistry and web development. The main github repository should also be linked.
-The main page and sub pages should be rendered in AJAX. Mention whole site is built from scratch, with no template. Use a stock background image for the 'about me' jumbotron. Get a favicon
+The main page and sub pages should be rendered in AJAX. Mention whole site is built from scratch, with no template. Use a stock background image for the 'about me' jumbotron. Get a favicon.
+Add meta tags for relevant areas. Make sur navigation tools are implemented. Add a home page navigation option on subpages.
 
 Quantum chemistry covers basic quantum chemical descriptions, HF, MP2, CCSD and MCSCF etc., as well as thesis and what that means, as well as link to thesis.
 
 Web development describes types of code and tools that have been covered, HTML, CSS, JS, Java, angular, react, bootstrap etc., 
-and links to seperate pages for each codecademy project, with sub headings for each area. The code for each project should be linked to via github 
+and links to seperate pages for each codecademy project, with sub headings for each area. The code for each project should be linked to via github,
+extra navigation tools for each language and tool would help a lot, too. 
