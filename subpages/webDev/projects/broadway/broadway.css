@@ -102,6 +102,7 @@ footer p {
   text-align: center;
   display: inline-block;
   width: 200px;
+  top: 20px;
 }
 
 .supporting img {
