@@ -28,5 +28,7 @@ img {
 .project-description {
 	background-color: grey;
 	width: 75%;
-	margin: 0 auto;
+	margin: 20px auto 50px auto;
+	border: 0px solid white;
+	border-radius: 5px;
 }
