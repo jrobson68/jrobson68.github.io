@@ -11,3 +11,22 @@ header nav {
 header p {
 	padding: 10px 10px;
 }
+
+img {
+	width: 75%;
+	border: 0px solid white;
+	border-radius: 25px;
+	margin-top: 10px;
+}
+
+.btn.btn-primary {
+	width: 75%;
+	margin-top: 10px;
+
+}
+
+.project-description {
+	background-color: grey;
+	width: 75%;
+	margin: 0 auto;
+}

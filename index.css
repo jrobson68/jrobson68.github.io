@@ -13,28 +13,22 @@ header p {
 	padding: 10px 10px;
 }
 
-#webButton, #chemButton {
-	padding-left: 30px;
-}
 
 
 
 .btn.btn-primary {
-	width: 50%
+	width: 50%;
+	margin-top: 10px;
+
 }
 
-#chem {
-	width: 300px;
+
+img {
+    width: 300px;
 	height: 250px;
 	border: 2px solid black;
 	border-radius: 25px;
-}
-
-#webDev{
-	width: 300px;
-	height: 250px;
-	border: 2px solid white;
-	border-radius: 25px;
+	margin-top: 10px;
 }
 
 
