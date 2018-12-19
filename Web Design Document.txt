@@ -2,7 +2,7 @@ Main page, possibly with an about section in a jumbotron, links to two different
 The main page and sub pages should be rendered in AJAX. Mention whole site is built from scratch, with no template. Use a stock background image for the 'about me' jumbotron. Get a favicon.
 Add meta tags for relevant areas. Make sure navigation tools are implemented. Add a home page navigation option on subpages. Add page titales for each individual page.
 Make sure all pages are responsive for different page sizes. add hover states to show clickability. Decalre character coding. Remove reset.css calls from all html files and delete all reset. css files.
-Add alt tags for all images describing what the image is.
+Add alt tags for all images describing what the image is. Myabe use handlebars for the text on projects page.
 
 Quantum chemistry covers basic quantum chemical descriptions, HF, MP2, CCSD and MCSCF etc., as well as thesis and what that means, as well as link to thesis.
 
