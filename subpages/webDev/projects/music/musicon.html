@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Musicon</title>
+	<link rel="stylesheet" href="/subpages/webDev/projects/music/musicon.css">
+	<script src="/subpages/webDev/projects/music/handlebars.min.js"></script>
+	<script id="templateHB" type="text/x-handlebars-template">
+	<h1>{{title}}</h1>
+	<p>{{body}}</p>
+	<a href="/subpages/webDev/projects/music/musiconStore.html">Shop Now</a>
+	</script>
+	
   </head>
 
   <body>
@@ -20,6 +28,9 @@
 				<li>
 					<a href="/subpages/webDev/projects/music/musiconStore.html">Store</a>
 				</li>
+				<li>
+					<a href="/subpages/webDev/projects/music/musiconContact.html">Contact</a>
+				</li>
 			</ul>
         </nav>
 
@@ -27,16 +38,13 @@
     </header>
 
     <article id="introduction">
-      <section class="container">
-        <h1>Welcome to Musicon</h1>
-        <p>Musicon is a budding musical storefront with a mission to share the joy of music. These magnificent auditory tools are designed with musical creators, like you, in mind. Hobbyists, beginners, and experts alike can appreciate the resplendent sounds supplied by each and every instrument we carry. Join us in delivering the euphoric vibrations of melodia to the citizens of the world!</p>
-        <a href="store.html">Shop Now</a>
+      <section id="information" class="container">
       </section>
     </article>
 
     <footer>
       <p>&copy; Musicon</p>
     </footer>
-    <script src="public/main.js"></script>
+    <script src="musicon.js"></script>
   </body>
 </html>
