@@ -25,8 +25,54 @@ const htmlContext = {
 	]
 };
 
-const templateElement = document.getElementById('htmlTemplate');
+const htmlTemplateElement = document.getElementById('htmlTemplate');
+const htmlTemplateSource =  htmlTemplateElement.innerHTML;
+const htmlTemplate = Handlebars.compile(htmlTemplateSource);
+const htmlCompiledHtml = htmlTemplate(htmlContext);
+document.getElementById('htmlCss').innerHTML = htmlCompiledHtml;
+
+const javascriptContext = {
+	javascriptProjects: [
+		{
+			img: '/subpages/webDev/projects/choreDoor/choreDoor.jpeg',
+			href: '/subpages/webDev/projects/choreDoor/choreDoor.html',
+			btn: 'Chore Door',
+			description: 'A simple game written in javascript using a number of functions and conditional statements. The game logic is as follows: there are three doors, and behind one of them is chorebot, a robot who makes you do chores. If you are able to open two doors to fun locations before you find chorebot, you win. If you find chorebot before opening two doors, you lose.',
+			
+			Rimg: '/subpages/webDev/projects/randomColor/randomColor.jpeg',
+			Rhref: '/subpages/webDev/projects/randomColor/randomColor.html',
+			Rbtn: "Random Colour Picker",
+			Rdescription: "A project to use javascript to pick a random colour. This project focuses on using DOM events, string concatination and mouse events to add functionality to HTML elements. The 'Pick A Colour' should provide a random colour upon clicking, and the 'Mystery Colour' Should proivde a colour when moused over."
+		},
+		{
+			img: '/subpages/webDev/projects/pianoKeys/pianoKeys.jpg',
+			href: '/subpages/webDev/projects/pianoKeys/pianoKeys.html',
+			btn: 'Piano Keys',
+			description: "An interactive webpage that allows the user to display the lyrics and piano notes to the song 'Happy Birthday', and interact with a virtual piano to 'play' the song. This project has a very heavy emphasis on DOM selectors and events.",
+			
+			Rid: 'squareGame',
+			Rimg: '/subpages/webDev/projects/squareGame/squareGame.jpg',
+			Rhref: '/subpages/webDev/projects/squareGame/squareGame.html',
+			Rbtn: "Sqaure Game",
+			Rdescription: 'A project primarily focusing using the rendering capabilities of the canvas element to create a simple, interactive video game, where the goal is to use WASD to move a red square into a bigger square.'
+		},
+		{
+			img: '/subpages/webDev/projects/music/musicon.jpeg',
+			href: '/subpages/webDev/projects/music/musicon.html',
+			btn: 'Musicon',
+			description: "This is an exercise using a fictional music store to demonstrate the use of handlebar templates.",
+			
+			Rid: 'squareGame',
+			Rimg: '/subpages/webDev/projects/squareGame/squareGame.jpg',
+			Rhref: '/subpages/webDev/projects/squareGame/squareGame.html',
+			Rbtn: "Sqaure Game",
+			Rdescription: 'A project primarily focusing using the rendering capabilities'
+		}
+	]
+};
+
+const templateElement = document.getElementById('javascriptTemplate');
 const templateSource =  templateElement.innerHTML;
 const template = Handlebars.compile(templateSource);
-const compiledHtml = template(htmlContext);
-document.getElementById('htmlCss').innerHTML = compiledHtml;
+const compiledHtml = template(javascriptContext);
+document.getElementById('javascript').innerHTML = compiledHtml;

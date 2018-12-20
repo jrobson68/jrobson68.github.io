@@ -22,6 +22,32 @@
 		</div>
 		{{/each}}
 	</script>
+	
+	<script id="javascriptTemplate" type="text/x-handlebars-template">
+		{{#each javascriptProjects}}
+		<div class="row">				
+			<figure class="col-sm-6 text-center">
+				{{#if id}}
+				<img id="{{this.id}} src="{{this.img}}">
+				{{else}}
+				<img src='{{this.img}}'>
+				{{/if}}
+				<a href='{{this.href}}' type="center-block button" class="btn btn-primary">{{this.btn}}</a>
+				<p class="project-description">{{this.description}}</p>				
+			</figure>
+			<figure class="col-sm-6 text-center">
+				{{#if Rid}}
+				<img id="{{this.Rid}}" src="{{this.Rimg}}">
+				{{else}}
+				<img src="{{this.Rimg}}">
+				{{/if}}
+				<a href="{{this.Rhref}}" type="button" class="btn btn-primary">{{this.Rbtn}}</a>
+				<p class="project-description">{{this.Rdescription}}</p>
+			</figure>			
+		</div>
+		{{/each}}
+	</script>
+	
 </head>
 
 <body>
@@ -122,7 +148,7 @@
 			<figure class="col-sm-6 text-center">
 				<img src="/subpages/webDev/projects/music/musicon.jpeg">
 				<a href="/subpages/webDev/projects/music/musicon.html" type="center-block button" class="btn btn-primary">Musicon</a>
-				<p class="project-description">Musicon</p>		
+				<p class="project-description"></p>		
 			</figure>
 			<figure class="col-sm-6 text-center">
 				<img src="/subpages/webDev/projects/#/#.jpg">
