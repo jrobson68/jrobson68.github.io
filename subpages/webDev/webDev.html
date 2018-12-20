@@ -5,8 +5,29 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link type="text/css" rel="stylesheet" href="webDev.css">
 	<title>Web Development</title>
+	<script src="handlebars.min.js"></script>
+	<script id="htmlTemplate" type="text/x-handlebars-template">
+		{{#each htmlProjects}}
+		<div class="row">				
+			<figure class="col-sm-6 text-center">
+				<img src='{{this.img}}'>
+				<a href='{{this.href}}' type="center-block button" class="btn btn-primary">{{this.btn}}</a>
+				<p class="project-description">{{this.description}}</p>				
+			</figure>
+			<figure class="col-sm-6 text-center">
+				<img src="{{this.Rimg}}">
+				<a href="{{this.Rhref}}" type="button" class="btn btn-primary">{{this.Rbtn}}</a>
+				<p class="project-description">{{this.Rdescription}}</p>
+			</figure>			
+		</div>
+		{{/each}}
+	</script>
 </head>
+
 <body>
+
+
+
 	<header class="container">
 		<div class="row">
 			<h1 class="col-sm-6">Web Development</h1>
@@ -24,6 +45,11 @@
 	
 	<h2>HTML & CSS</h2>
 	
+	
+		<section id="htmlCss" class="container">
+		</section>
+	
+	<!--
 	<section class="container">
 		<div class="row">				
 			<figure class="col-sm-6 text-center">
@@ -53,9 +79,13 @@
 			</figure>			
 		</div>
 	</section>
+	-->
 	
 	<h2>Javascript</h2>
 	
+		<section id="javascript" class="container">
+		</section>
+	<!--
 	<section class="container">
 		<div class="row">				
 			<figure class="col-sm-6 text-center">
@@ -102,6 +132,8 @@
 		</div>
 	</section>	
 	
+	-->
+	<script src="webDev.js"></script>
 </body>
 </html>
 
