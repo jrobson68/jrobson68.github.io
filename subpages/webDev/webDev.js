@@ -62,9 +62,8 @@ const javascriptContext = {
 			btn: 'Musicon',
 			description: "This is an exercise using a fictional music store to demonstrate the use of handlebar templates.",
 			
-			Rid: 'squareGame',
-			Rimg: '/subpages/webDev/projects/squareGame/squareGame.jpg',
-			Rhref: '/subpages/webDev/projects/squareGame/squareGame.html',
+			Rimg: '/subpages/webDev/projects/fontPreview/fontPreview.svg',
+			Rhref: '/subpages/webDev/projects/fontPreview/fontPreview.html',
 			Rbtn: "Sqaure Game",
 			Rdescription: 'A project primarily focusing using the rendering capabilities'
 		}
