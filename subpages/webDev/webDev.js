@@ -57,15 +57,15 @@ const javascriptContext = {
 			Rdescription: 'A project primarily focusing using the rendering capabilities of the canvas element to create a simple, interactive video game, where the goal is to use WASD to move a red square into a bigger square.'
 		},
 		{
-			img: '/subpages/webDev/projects/music/musicon.jpeg',
+			img: '/subpages/webDev/projects/music/musicon.jpg',
 			href: '/subpages/webDev/projects/music/musicon.html',
 			btn: 'Musicon',
 			description: "This is an exercise using a fictional music store to demonstrate the use of handlebar templates.",
 			
-			Rimg: '/subpages/webDev/projects/fontPreview/fontPreview.svg',
+			Rimg: '/subpages/webDev/projects/fontPreview/fontPreview.jpeg',
 			Rhref: '/subpages/webDev/projects/fontPreview/fontPreview.html',
-			Rbtn: "Sqaure Game",
-			Rdescription: 'A project primarily focusing using the rendering capabilities'
+			Rbtn: "Font Preview",
+			Rdescription: 'A project that uses jQuery to add functionality to a static website using a number of event handlers.'
 		}
 	]
 };
