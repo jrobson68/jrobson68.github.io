@@ -66,6 +66,17 @@ const javascriptContext = {
 			Rhref: '/subpages/webDev/projects/fontPreview/fontPreview.html',
 			Rbtn: "Font Preview",
 			Rdescription: 'A project that uses jQuery to add functionality to a static website using a number of event handlers.'
+		},
+		{
+			img: '/subpages/webDev/projects/gameboard/gameboard.jpg',
+			href: '/subpages/webDev/projects/gameboard/gameboard.html',
+			btn: 'Gameboard',
+			description: "#",
+			
+			Rimg: '/subpages/webDev/projects/#/#.jpeg',
+			Rhref: '/subpages/webDev/projects/#/#.html',
+			Rbtn: "#",
+			Rdescription: '#'
 		}
 	]
 };
