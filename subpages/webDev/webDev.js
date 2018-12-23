@@ -65,17 +65,17 @@ const javascriptContext = {
 			Rimg: '/subpages/webDev/projects/fontPreview/fontPreview.jpeg',
 			Rhref: '/subpages/webDev/projects/fontPreview/fontPreview.html',
 			Rbtn: "Font Preview",
-			Rdescription: 'A project that uses jQuery to add functionality to a static website using a number of event handlers.'
+			Rdescription: 'A project where jQuery is used to add functionality to a static website. The functionality in this case is to modify the font type, font weight and font size of user-inputted text.'
 		},
 		{
-			img: '/subpages/webDev/projects/gameboard/gameboard.jpg',
+			img: '/subpages/webDev/projects/gameboard/gameboard.jpeg',
 			href: '/subpages/webDev/projects/gameboard/gameboard.html',
 			btn: 'Gameboard',
-			description: "#",
+			description: "An exercise in using jQuery to access DOM elements according to their relative position and relation to parent and sibling elements, allowing the clickable 'more', 'share' and bell items to have functionality.",
 			
-			Rimg: '/subpages/webDev/projects/#/#.jpeg',
-			Rhref: '/subpages/webDev/projects/#/#.html',
-			Rbtn: "#",
+			Rimg: '/subpages/webDev/projects/wanderlust/wanderlust.jpeg',
+			Rhref: '/subpages/webDev/projects/wanderlust/wanderlust.html',
+			Rbtn: "Wanderlust",
 			Rdescription: '#'
 		}
 	]
