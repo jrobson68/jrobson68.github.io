@@ -5,7 +5,7 @@ const url = 'https://api.foursquare.com/v2/venues/explore?near=';
 
 // APIXU Info
 const apiKey = '06a9dec76ef243c4b23164531182510';
-const forecastUrl = 'https://api.apixu.com/v1/current.json?key';
+const forecastUrl = 'https://api.apixu.com/v1/forecast.json?key=';
 
 // Page Elements
 const $input = $('#city');
@@ -27,6 +27,8 @@ const getVenues = async () => {
 			const venues = jsonResponse.response.groups[0].items.map(item => item.venue);
 			console.log(venues);
 			return venues;
+		} else {
+			throw new Error('Venues request failed.')
 		}
 
 	} catch (error) {
@@ -34,7 +36,23 @@ const getVenues = async () => {
 	}
 }
 
-const getForecast = () => {
+const getForecast = async () => {
+	const urlToFetch = `${forecastUrl}${apiKey}&q=${$input.val()}&days=4&hour=11`;
+	try {
+		const response = await fetch(urlToFetch);
+		if(response.ok) {
+			const jsonResponse = await response.json();
+			console.log(jsonResponse);
+			const days = jsonResponse.forecast.forecastday;
+			return days;
+		} else {
+			throw new Error('Forecast request failed.')
+		}
+		
+	} catch(error) {
+		console.log(error);
+	}
+
 
 }
 
@@ -42,9 +60,10 @@ const getForecast = () => {
 // Render functions
 const renderVenues = (venues) => {
   $venueDivs.forEach(($venue, index) => {
-    // Add your code here:
-
-    let venueContent = '';
+	const venue = venues[index];
+	const venueIcon = venue.categories[0].icon;
+	const venueImgSrc = `${venueIcon.prefix}bg_64${venueIcon.suffix}`;
+	let venueContent = createVenueHTML(venue.name, venue.location, venueImgSrc);
     $venue.append(venueContent);
   });
   $destination.append(`<h2>${venues[0].location.city}</h2>`);
@@ -65,7 +84,7 @@ const executeSearch = () => {
   $weatherDivs.forEach(day => day.empty());
   $destination.empty();
   $container.css("visibility", "visible");
-  getVenues()
+  getVenues().then(venues => renderVenues(venues));
   getForecast()
   return false;
 }
