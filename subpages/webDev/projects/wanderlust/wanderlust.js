@@ -20,12 +20,15 @@ const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Frida
 const getVenues = async () => {
 	const city = $input.val();
 	const urlToFetch = `${url}${city}&limit=10&client_id=${clientId}&client_secret=${clientSecret}&v=20181223`;
+	
 	try{
 		const response = await fetch(urlToFetch);
 		if(response.ok) {
 			const jsonResponse = await response.json();
 			const venues = jsonResponse.response.groups[0].items.map(item => item.venue);
+			venues.sort(function() {if (Math.random()<0.5) return-1; else return 1; });
 			console.log(venues);
+			
 			return venues;
 		} else {
 			throw new Error('Venues request failed.')
@@ -71,10 +74,9 @@ const renderVenues = (venues) => {
 
 const renderForecast = (days) => {
   $weatherDivs.forEach(($day, index) => {
-    // Add your code here:
-
-
-    let weatherContent = '';
+	const currentDay = days[index]
+	console.log(currentDay);
+    let weatherContent = createWeatherHTML(currentDay);
     $day.append(weatherContent);
   });
 }
@@ -85,7 +87,7 @@ const executeSearch = () => {
   $destination.empty();
   $container.css("visibility", "visible");
   getVenues().then(venues => renderVenues(venues));
-  getForecast()
+  getForecast().then(forecast => renderForecast(forecast));
   return false;
 }
 
