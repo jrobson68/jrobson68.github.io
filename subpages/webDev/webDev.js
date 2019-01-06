@@ -76,7 +76,7 @@ const javascriptContext = {
 			Rimg: '/subpages/webDev/projects/wanderlust/wanderlust.jpeg',
 			Rhref: '/subpages/webDev/projects/wanderlust/wanderlust.html',
 			Rbtn: "Wanderlust",
-			Rdescription: '#'
+			Rdescription: 'A simple javascript app that uses fetch, async and await keywoards to request information from the Foursqaure and APIXU APIs to display the weather and top attractions for a searched City or location.'
 		}
 	]
 };
