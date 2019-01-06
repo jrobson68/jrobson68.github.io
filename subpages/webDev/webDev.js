@@ -77,7 +77,18 @@ const javascriptContext = {
 			Rhref: '/subpages/webDev/projects/wanderlust/wanderlust.html',
 			Rbtn: "Wanderlust",
 			Rdescription: 'A simple javascript app that uses fetch, async and await keywoards to request information from the Foursqaure and APIXU APIs to display the weather and top attractions for a searched City or location.'
-		}
+		},
+		{
+			img: '/subpages/webDev/projects/authorizationForm/authorizationForm.jpeg',
+			href: '/subpages/webDev/projects/authorizationForm/authorizationForm.html',
+			btn: 'Authorization Form',
+			description: "#",
+			
+			Rimg: '#',
+			Rhref: '/#',
+			Rbtn: "#",
+			Rdescription: '#'
+		},
 	]
 };
 
