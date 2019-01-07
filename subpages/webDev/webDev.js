@@ -80,7 +80,7 @@ const javascriptContext = {
 		},
 		{
 			img: '/subpages/webDev/projects/ravenous/ravenous.jpeg',
-			href: '/subpages/webDev/projects/ravenous/src/app.js',
+			href: 'https://jrobson68.github.io/ravenous/',
 			btn: 'Ravenous',
 			description: "#",
 			
