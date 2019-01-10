@@ -82,7 +82,7 @@ const javascriptContext = {
 			img: '/subpages/webDev/projects/ravenous/ravenous.jpeg',
 			href: 'https://jrobson68.github.io/ravenous/',
 			btn: 'Ravenous',
-			description: "#",
+			description: "This is a single page react app utilising the Yelp API to show a number of restaurants of a certain type, Chinese, pizza etc. in a given location, with each business displaying a clickable phto that takes a user to the relevant Yelp page and the relevant information about the given restaurant, including a clickable address that will show the restaurant on google maps. ",
 			
 			Rimg: '#',
 			Rhref: '/#',

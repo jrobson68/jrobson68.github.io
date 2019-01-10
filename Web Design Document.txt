@@ -3,6 +3,7 @@ The main page and sub pages should be rendered in AJAX. Mention whole site is bu
 Add meta tags for relevant areas. Make sure navigation tools are implemented. Add a home page navigation option on subpages. Add page titales for each individual page.
 Make sure all pages are responsive for different page sizes. add hover states to show clickability. Decalre character coding. Remove reset.css calls from all html files and delete all reset. css files.
 Add alt tags for all images describing what the image is. Maybe use handlebars for the text on projects page. Check relative path names, should be able to user example.css instead of /subpage/.../example.css
+add a home page navigation button for all pages, as well as a 'return to web dev or quant chem' for the relevant pages.Check image resolutions on main page to not be too big to load well.
 
 Quantum chemistry covers basic quantum chemical descriptions, HF, MP2, CCSD and MCSCF etc., as well as thesis and what that means, as well as link to thesis.
 
