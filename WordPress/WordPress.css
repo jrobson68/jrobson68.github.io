@@ -1,0 +1,43 @@
+body {
+    background-color: lightgrey;
+}
+
+.heading {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.introduction {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.subheading {
+    margin-top: 70px;
+    text-decoration: underline;
+}
+
+#auto-intro {
+    margin-top: 10px;
+}
+
+#choose-file {
+    width: 40%
+}
+
+
+.instructions {
+    background-color: white;
+    border: 1px solid black;
+    width: 50%;
+    margin : 20px auto;
+    padding: 5px 0;
+    width: 40%
+}
+
+.picture {
+    height: 75%;
+    width: 40%;
+    margin-bottom: 30px;
+}
