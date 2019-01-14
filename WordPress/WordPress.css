@@ -26,13 +26,12 @@ body {
     width: 40%
 }
 
-
 .instructions {
     background-color: white;
     border: 1px solid black;
     width: 50%;
     margin : 20px auto;
-    padding: 5px 0;
+    padding: 5px 5px;
     width: 40%
 }
 
